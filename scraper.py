@@ -2,6 +2,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 books_json_list=[]
+
 next_page = True
 page =1
 while next_page:
@@ -20,3 +21,4 @@ while next_page:
 
 with open("books.json","w") as datafile:
     json.dump(books_json_list,datafile,indent=4)
+
