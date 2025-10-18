@@ -67,5 +67,4 @@ This project scrapes data from the demo website:
 This scraper is intended for educational purposes only.
 Always check a website’s robots.txt and terms of service before scraping.
 
-yaml
-Copy code
+
